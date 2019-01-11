@@ -1,10 +1,10 @@
 <?php
-namespace App\Cli;
+namespace App;
 
 use Codedungeon\PHPCliColors\Color;
 use App\Exceptions\InvalidURLException;
 
-class Init
+class Cli
 {
 
     private $fullUrl;
