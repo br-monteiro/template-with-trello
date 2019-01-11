@@ -1,0 +1,25 @@
+{
+    "name": "phbsis/template-with-trello",
+    "description": "Gerador de Descrição para Pull Request usando a API do Trello",
+    "homepage": "https://github.com/br-monteiro/template-with-trello",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edson B S Monteiro",
+            "email": "bruno.monteirodg@gmail.com"
+        }
+    ],
+    "require": {
+        "cdaguerre/php-trello-api": "0.9.3",
+        "codedungeon/php-cli-colors": "1.10.7"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
