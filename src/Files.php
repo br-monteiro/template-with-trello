@@ -55,7 +55,7 @@ class Files
     {
         $fullPath = $this->basePath . cfg::DS . $path;
 
-        if (file_exists($fullPath) && !is_readable($fullPath)) {
+        if (!file_exists($fullPath) || !is_readable($fullPath)) {
             throw new UnreadableFileException("O arquivo {$fullPath} não pode ser lido");
         }
 
