@@ -1,0 +1,13 @@
+#### %CARD_NAME%
+
+[%CARD_URL%](%CARD_URL%)
+
+Members: %CARD_MEMBERS%
+
+##### Problem
+%CARD_DESCRIPTION%
+
+##### Solution
+%CARD_SOLUTION%
+
+%CARD_OBSERVATIONS%
