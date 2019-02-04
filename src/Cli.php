@@ -47,6 +47,7 @@ class Cli
         if (count($args) <= 1) {
             print Color::red() . "Os comandos disponíveis são:" . Color::normal() . PHP_EOL;
             print Color::green() . "trello <card-url>" . Color::normal() . PHP_EOL;
+            exit;
         } else {
             $this->setFullUrl($args[1]); // second parameter
         }
